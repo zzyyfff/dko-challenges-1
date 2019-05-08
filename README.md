@@ -1,5 +1,7 @@
 ### Problem Format
 
+#### Note: The tests are not super in-depth on purpose and passing the tests may not actually mean your functions work correctly and run in a reasonable amount of time!
+
 ##### Challenge-0
 
 1. Code has a few bugs
