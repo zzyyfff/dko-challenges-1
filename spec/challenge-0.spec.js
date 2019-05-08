@@ -9,7 +9,7 @@ const expect = chai.expect
 
 const challenge = require('../lib/challenge-0.js')
 
-describe('starts at 1', function () {
+describe('Challenge-0: starts at 1', function () {
   it('returns the correct value', function () {
     expect(challenge([
       {word: 'fizz', number: 3},
@@ -18,7 +18,7 @@ describe('starts at 1', function () {
   })
 })
 
-describe('fizzbuzz', function () {
+describe('Challenge-0: fizzbuzz', function () {
   it('returns the correct value', function () {
     expect(challenge([
       {word: 'fizz', number: 3},
@@ -27,7 +27,7 @@ describe('fizzbuzz', function () {
   })
 })
 
-describe('fizzfuzzbuzz', function () {
+describe('Challenge-0: fizzfuzzbuzz', function () {
   it('returns the correct value', function () {
     expect(challenge([
       {word: 'fizz', number: 3},
