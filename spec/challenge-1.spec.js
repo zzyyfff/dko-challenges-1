@@ -11,7 +11,7 @@ const challenge = require('../lib/challenge-1.js')
 
 describe('under max', function () {
   it('returns the correct value', function () {
-    expect(challenge([5, 9, 13, 17, 2, 21], 20)).to.equal(30)
+    expect(challenge([5, 9, 13, 17, 2, 21], 20)).to.equal(19)
   })
 })
 
