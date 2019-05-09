@@ -1,7 +1,7 @@
 ### Most interview problems involve using objects or sorting!
 
 ## challenge-0
-### can pass all the test by modifying 3 lines of code on lines 16, 18, 23
+### can pass all the test by modifying 3 lines of code on lines 21, 23, 28
 ### involves sorting
 ### involves chaining array iteration methods
 
