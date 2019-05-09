@@ -2,6 +2,8 @@
 
 #### Note: The tests are not super in-depth on purpose and passing the tests may not actually mean your functions work correctly and run in a reasonable amount of time!
 
+##### Challenges are located in lib folder
+
 ##### Challenge-0
 
 1. Code has a few bugs
@@ -28,5 +30,5 @@ npm i
 grunt test
 ```
 
+1. Read Prompts in files in lib
 1. Pass all tests
-1. Read Description in files in lib
