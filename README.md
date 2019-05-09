@@ -7,7 +7,7 @@
 
 ##### Challenges are located in lib folder
 
-##### Challenge-0
+##### challenge-1
 
 Suggested Time Spent: 30 min
 
@@ -15,7 +15,7 @@ Suggested Time Spent: 30 min
 1. Modify the code without adding or removing lines of code
 1. Grunt test check if it passes the tests
 
-##### Challenge-1
+##### challenge-2
 
 Suggested Time Spent: 60 min
 
@@ -23,7 +23,7 @@ Suggested Time Spent: 60 min
 1. Create a function that passes the tests
 1. After creating the function, try to make it more efficient
 
-##### Challenge-2
+##### challenge-3
 
 Suggested Time Spent: 30 min
 
