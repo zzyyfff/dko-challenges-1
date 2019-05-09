@@ -11,10 +11,10 @@ const challenge = require('../lib/challenge-0.js')
 
 describe('challenge-0: returns a string', function () {
   it('returns the correct value', function () {
-    expect(challenge([
+    expect(typeof challenge([
       {word: 'fizz', number: 3},
       {word: 'buzz', number: 5}],
-    60)[3]).to.equal('4')
+    60)[3]).to.equal('string')
   })
 })
 
