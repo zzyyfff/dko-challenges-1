@@ -9,14 +9,20 @@ const expect = chai.expect
 
 const challenge = require('../lib/challenge-2.js')
 
-describe('challenge-2: long string of numbers', function () {
+describe('challenge-2: under max', function () {
   it('returns the correct value', function () {
-    expect(challenge('029331183')).to.equal('333119820')
+    expect(challenge([5, 9, 13, 17, 2, 21], 20)).to.equal(19)
   })
 })
 
-describe('challenge-2: short string of numbers', function () {
+describe('challenge-2: over max', function () {
   it('returns the correct value', function () {
-    expect(challenge('12353')).to.equal('33521')
+    expect(challenge([31, 40, 35], 30)).to.equal(undefined)
+  })
+})
+
+describe('challenge-2: equal to max', function () {
+  it('returns the correct value', function () {
+    expect(challenge([5, 9, 13, 17, 2, 21], 30)).to.equal(30)
   })
 })
