@@ -30,5 +30,6 @@ npm i
 grunt test
 ```
 
-1. Read Prompts in files in lib
-1. Pass all tests
+## Hints
+
+Check out lib/hints.md for hints if you really get stuck
