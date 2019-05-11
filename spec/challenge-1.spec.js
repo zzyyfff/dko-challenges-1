@@ -9,51 +9,26 @@ const expect = chai.expect
 
 const challenge = require('../lib/challenge-1.js')
 
-describe('challenge-1: returns a string', function () {
+describe('challenge-1: missing num is not in array', function () {
   it('returns the correct value', function () {
-    expect(typeof challenge([
-      {word: 'fizz', number: 3},
-      {word: 'buzz', number: 5}],
-    60)[3]).to.equal('string')
+    expect(challenge([1, 2, 3, 4])).to.equal(5)
   })
 })
 
-describe('challenge-1: starts at 1', function () {
+describe('challenge-1: missing num is in array', function () {
   it('returns the correct value', function () {
-    expect(challenge([
-      {word: 'fizz', number: 3},
-      {word: 'buzz', number: 5}],
-    60)[0]).to.equal('1')
+    expect(challenge([1, 2, 5, 4])).to.equal(3)
   })
 })
 
-describe('challenge-1: fizzbuzz', function () {
+describe('challenge-1: biggest num in array is less than 0', function () {
   it('returns the correct value', function () {
-    expect(challenge([
-      {word: 'fizz', number: 3},
-      {word: 'buzz', number: 5}],
-    60)[14]).to.equal('fizzbuzz')
+    expect(challenge([-1, -2, -3])).to.equal(1)
   })
 })
 
-describe('challenge-1: fizzfuzzbuzz', function () {
+describe('challenge-1: single item in array', function () {
   it('returns the correct value', function () {
-    expect(challenge([
-      {word: 'fizz', number: 3},
-      {word: 'buzz', number: 5},
-      {word: 'fuzz', number: 4}],
-    60)[59]).to.equal('fizzfuzzbuzz')
-  })
-})
-
-describe('challenge-1: fizzfuzzbuzzbezzbozz', function () {
-  it('returns the correct value', function () {
-    expect(challenge([
-      {word: 'fizz', number: 3},
-      {word: 'buzz', number: 5},
-      {word: 'fuzz', number: 4},
-      {word: 'bozz', number: 12},
-      {word: 'bezz', number: 10}],
-    60)[59]).to.equal('fizzfuzzbuzzbezzbozz')
+    expect(challenge([11])).to.equal(1)
   })
 })
