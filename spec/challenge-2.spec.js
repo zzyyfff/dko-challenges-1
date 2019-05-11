@@ -9,9 +9,9 @@ const expect = chai.expect
 
 const challenge = require('../lib/challenge-2.js')
 
-describe('challenge-2: long string of numbers', function () {
+describe('challenge-2: correct number of months for $100', function () {
   it('returns the correct value', function () {
-    expect(challenge('029331183')).to.equal('333119820')
+    expect(challenge(100)).to.equal(42)
   })
 })
 

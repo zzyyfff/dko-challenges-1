@@ -9,20 +9,20 @@ const expect = chai.expect
 
 const challenge = require('../lib/challenge-3.js')
 
-describe('challenge-3: under max', function () {
+describe('challenge-3: correct number of months for $100', function () {
   it('returns the correct value', function () {
-    expect(challenge([5, 9, 13, 17, 2, 21], 20)).to.equal(19)
+    expect(challenge(100)).to.equal(42)
   })
 })
 
-describe('challenge-3: over max', function () {
+describe('challenge-3: correct number of months for $1000', function () {
   it('returns the correct value', function () {
-    expect(challenge([31, 40, 35], 30)).to.equal(undefined)
+    expect(challenge(1000)).to.equal(5)
   })
 })
 
-describe('challenge-3: equal to max', function () {
+describe('challenge-3: correct number of months for $250', function () {
   it('returns the correct value', function () {
-    expect(challenge([5, 9, 13, 17, 2, 21], 30)).to.equal(30)
+    expect(challenge(250)).to.equal(19)
   })
 })
