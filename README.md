@@ -7,9 +7,11 @@
 
 ##### Challenges are located in lib folder
 
+## Total Time: 2 Hours for 3 challenge problems
+
 ##### challenge-1
 
-Suggested Time Spent: 30 min
+Suggested Alloted Time: 15 min
 
 1. Code has a few bugs
 1. Modify the code without adding or removing lines of code
@@ -17,7 +19,7 @@ Suggested Time Spent: 30 min
 
 ##### challenge-2
 
-Suggested Time Spent: 60 min
+Suggested Alloted Time: 60 min
 
 1. Algorithm question
 1. Create a function that passes the tests
@@ -25,7 +27,7 @@ Suggested Time Spent: 60 min
 
 ##### challenge-3
 
-Suggested Time Spent: 30 min
+Suggested Alloted Time: 45 min
 
 1. Supposed to be a long ass word problem with a simple question
 1. Create a function that passes the tests
